@@ -1,0 +1,15 @@
+{
+  "name": "restuarant-app",
+  "type": "module",
+  "description": "https://scrimba.com/the-frontend-developer-career-path-c0j/~0ie",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

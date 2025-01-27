@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-text">
+          <h1>Jimmy's Diner</h1>
+          <p>The best burgers and pizzas in town.</p>
+        </div>
+      </header>
+
+      <div class="menu">
+        <!-- menu items -->
+      </div>
+
+      <div class="payment">
+        <!-- payment inside -->
+      </div>
+
+      <div class="order">
+        <h3 id="order-title">Your Order</h3>
+        <!-- order inside -->
+        <div class="basket-items">
+          <!-- pricing-->
+        </div>
+        <div class="basket-total">
+          <!-- total -->
+        </div>
+        <button class="payment-btn">Complete Payment</button>
+      </div>
+      <form class="payment-form">
+        <h3>Payment Details</h3>
+        <input
+          class="form-items"
+          type="text"
+          id="name"
+          maxlength="40"
+          placeholder="Enter your name"
+          required
+        />
+        <input
+          class="form-items"
+          id="cardnumber"
+          type="number"
+          maxlength="16"
+          placeholder="Enter card number"
+          required
+        />
+        <input
+          class="form-items"
+          id="CVV"
+          type="number"
+          maxlength="3"
+          placeholder="Enter CVV"
+          required
+        />
+        <button id="submit-btn" class="form-items">Pay</button>
+      </form>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
